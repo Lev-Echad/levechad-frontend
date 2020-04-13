@@ -15,3 +15,6 @@ npm start
 ```
 
 For more info, visit the [Create React App docs.](https://github.com/facebook/create-react-app).
+
+## Contributing
+See the [CONTRIBUTING](https://github.com/Lev-Echad/levechad-backend/blob/master/CONTRIBUTING.md) file on the `levechad-backend` repository for more information.
