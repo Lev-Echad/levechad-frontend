@@ -1,21 +1,18 @@
-import React from 'react'
-import PropTypes from 'prop-types'
-import './volunteerRegister.scss'
-import PageHeader from '../pageHeader/pageHeader'
-import VolunteerRegisterWizard from '../volunteerRegisterWizard/volunteerRegisterWizard'
+import RegisterWizard from './RegisterWizard/RegisterWizard';
+import RegisterFormProvider from '../../contexts/registerForm.context';
+import PageHeader from '../UI/PageHeader/PageHeader';
+import './VolunteerRegister.scss';
+import React from 'react';
 
 function VolunteerRegister(props) {
     return (
         <React.Fragment>
             <PageHeader Title="הרשמה להתנדבות" Text="הצטרפו אלינו! זה component אז אפשר לשים כאן מה שרוצים!" />
-            <VolunteerRegisterWizard />
+            <RegisterFormProvider>
+                <RegisterWizard />
+            </RegisterFormProvider>
         </React.Fragment>
     )
-}
-
-VolunteerRegister.propTypes = {
-
-}
-
-export default VolunteerRegister
+};
+export default VolunteerRegister;
 
