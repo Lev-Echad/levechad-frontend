@@ -1,5 +1,5 @@
 import RegisterWizardUserDetails from './WizardUserDetails/WizardUserDetails';
-import { RegisterFormContext } from '../../../contexts/registerForm.context';
+import { RegisterFormContext } from '../../../contexts/RegisterFormContext';
 import WizardDotHeader from './WizardDotHeader/WizardDotHeader';
 import SmsPincodeAuth from './SmsPincodeAuth/SmsPincodeAuth';
 import SendSmsStart from './SendSmsStart/SendSmsStart';
@@ -16,12 +16,12 @@ function VolunteerRegisterWizard(props) {
         <React.Fragment>
             <WizardDotHeader Stages={wizardStages} />
             <Container className='mt-5 text-center'>
-                {stage === 0 && (
+                {/* {stage === 0 && (
                     <React.Fragment>
                         {!smsSent ? <SendSmsStart /> : <SmsPincodeAuth />}
                     </React.Fragment>
-                )}
-                {stage === 1 && (
+                )} */}
+                {1 === 1 && (
                     <RegisterWizardUserDetails />
                 )}
             </Container>
