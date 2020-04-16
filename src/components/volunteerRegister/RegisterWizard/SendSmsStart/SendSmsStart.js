@@ -1,4 +1,4 @@
-import { RegisterFormContext } from '../../../../contexts/registerForm.context';
+import { RegisterFormContext } from '../../../../contexts/RegisterFormContext';
 import React, { useContext } from 'react'
 
 function SendSmsStart(props) {

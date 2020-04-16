@@ -1,0 +1,20 @@
+.Form {
+    display: flex;
+    justify-content: center;
+}
+
+.Container {
+    width: 60%;
+    
+}
+
+.checkbox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.checkbox span {
+    padding-left: 10px;
+}

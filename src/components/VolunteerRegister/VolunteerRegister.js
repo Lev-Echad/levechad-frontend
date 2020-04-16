@@ -1,5 +1,5 @@
+import RegisterFormProvider from '../../contexts/RegisterFormContext';
 import RegisterWizard from './RegisterWizard/RegisterWizard';
-import RegisterFormProvider from '../../contexts/registerForm.context';
 import PageHeader from '../UI/PageHeader/PageHeader';
 import './VolunteerRegister.scss';
 import React from 'react';
