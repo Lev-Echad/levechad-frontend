@@ -6,6 +6,7 @@ import SendSmsStart from './SendSmsStart/SendSmsStart';
 import React, { useContext } from 'react';
 import { Container } from 'reactstrap';
 import './RegisterWizard.scss';
+import FinishedUserWizard from './FinishedUserWizard/FinishedUserWizard';
 
 
 function VolunteerRegisterWizard(props) {
@@ -23,6 +24,9 @@ function VolunteerRegisterWizard(props) {
                 )}
                 {stage === 1 && (
                     <RegisterWizardUserDetails />
+                )}
+                {stage === 2 && (
+                    <FinishedUserWizard />
                 )}
             </Container>
         </React.Fragment>
